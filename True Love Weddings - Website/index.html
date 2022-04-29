@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS FILES-->
+    <link rel="stylesheet" href="./css/General.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+
+    <!-- BOOTSTRAP CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>True Love Weddings</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">HOME</a></li>
+          <li>
+            <a class="main-nav-link" href="#about-us">About Us</a>
+          </li>
+          <li><a class="main-nav-link" href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+
+      <img src="./Images/Logo.png" alt="" />
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#investment">Investment</a></li>
+          <li><a class="main-nav-link" href="#information">Information</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- **************** HAMBURGER MENU ****************  -->
+      <div class="menu-btn">
+        <div class="menu-btn_burger"></div>
+      </div>
+    </header>
+
+    <div class="burger-menu">
+      <ul class="main-nav-list-mob">
+        <li><a class="main-nav-link-mob" href="#">HOME</a></li>
+        <li><a class="main-nav-link-mob" href="#about-us">About Us</a></li>
+        <li><a class="main-nav-link-mob" href="#portfolio">Portfolio</a></li>
+        <li>
+          <a class="main-nav-link-mob" href="#information">Information</a>
+        </li>
+        <li><a class="main-nav-link-mob" href="#investment">Investment</a></li>
+        <li><a class="main-nav-link-mob" href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- **************** PAGE HERO SECTION ****************  -->
+    <main>
+      <section
+        class="section-hero wow fadeIn"
+        data-wow-duration="2s"
+        data-wow-delay="0.2s"
+        id="top"
+      >
+        <div class="hero">
+          <div
+            class="wow slideInRight"
+            data-wow-duration="3s"
+            data-wow-delay="0"
+            data-wow-offset="1"
+          >
+            <div class="hero-text">
+              <h1>capturing your true love</h1>
+              <p class="quote">"where life starts & love never ends"</p>
+              <a href="#investment" class="CTA--btn">DISCOVER</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- **************** ABOUT US SECTION ****************  -->
+      <div
+        class="wow fadeIn"
+        data-wow-offset="5"
+        data-wow-duration="2s"
+        data-wow-delay="0.2s"
+      >
+        <section class="section-about-us" id="about-us">
+          <div class="container about-us grid grid--2-cols">
+            <h2 class="title">about us</h2>
+            <p class="paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              suscipit odit animi dolor eos, distinctio odio vitae voluptatem
+              numquam doloremque.
+              <br />
+              <br />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              suscipit odit animi dolor eos, distinctio odio vitae voluptatem
+              numquam doloremque.
+              <br />
+              <br />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              suscipit odit animi dolor eos, distinctio odio vitae voluptatem
+              numquam doloremque.
+            </p>
+            <img
+              src="./Images/aimee.jpg"
+              alt="about us image"
+              class="about-us-img"
+            />
+          </div>
+        </section>
+      </div>
+      <!-- **************** PORTFOLIO SECTION  ****************  -->
+      <section
+        class="section-portfolio wow fadeIn"
+        data-wow-duration="2s"
+        data-wow-delay="0.2s"
+        id="portfolio"
+      >
+        <h2 class="title">Portfolio</h2>
+
+        <div class="carousel container">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="./Images/1.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./Images/2.jpg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./Images/3.jpg"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- **************** INVESTMENT SECTION ****************  -->
+      <section
+        class="section-investment wow fadeIn"
+        data-wow-offset="5"
+        data-wow-duration="1s"
+        data-wow-delay="0.2s"
+        id="investment"
+      >
+        <div class="container grid grid--2-cols">
+          <!-- INVESTMENT SECTION TITLE-->
+          <h1 class="investment-title title wow fadeIn"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.5s"
+          id="investment"">investment</h1>
+          <!-- PACKAGE 1 -->
+          <div class="package-text wow slideInLeft"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"
+          id="investment"">
+            <div class="package-title just--end">
+              <h2 class="subtitle">weddings</h2>
+              <h1 class="number">01</h1>
+            </div>
+            <p class="package-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <div class="card wow slideInRight"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"
+          id="investment"">
+            <img class="card-img img--1" src="./Images/1.jpg" alt="" />
+            <h3 class="card-title">Starting From €1200</h3>
+          </div>
+          <!-- PACKAGE 2 -->
+          <div class="card wow slideInLeft"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <img class="card-img img--2" src="./Images/1.jpg" alt="" />
+            <h3 class="card-title">Starting From €1200</h3>
+          </div>
+          <div class="package-text wow slideInRight"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <div class="package-title">
+              <h1 class="number subtitle">02</h1>
+              <h2 class="subtitle">elopements</h2>
+            </div>
+            <p class="package-paragraph left-align">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <!-- PACKAGE 3 -->
+          <div class="package-text wow slideInLeft"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <div class="package-title just--end">
+              <h2 class="subtitle">engagements</h2>
+              <h1 class="number subtitle">03</h1>
+            </div>
+            <p class="package-paragraph right-align">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <div class="card wow slideInRight"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <img class="card-img img--3" src="./Images/1.jpg" alt="" />
+            <h3 class="card-title">Starting From €1200</h3>
+          </div>
+          <!-- PACKAGE 4 -->
+          <div class="card wow slideInLeft"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <img class="card-img img--4" src="./Images/1.jpg" alt="" />
+            <h3 class="card-title">Starting From €1200</h3>
+          </div>
+          <div class="package-text wow slideInRight"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s">
+            <div class="package-title">
+              <h1 class="number subtitle">04</h1>
+              <h2 class="subtitle">pre-weddings</h2>
+            </div>
+            <p class="package-paragraph left-align">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <!-- PACKAGE 5 -->
+          <div class="package-text wow slideInLeft"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <div class="package-title">
+              <h2 class="subtitle">anniversaries</h2>
+              <h1 class="number subtitle">05</h1>
+            </div>
+            <p class="package-paragraph right-align">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <div class="card wow slideInRight"
+          data-wow-offset="5"
+          data-wow-duration="1s"
+          data-wow-delay="0.2s"">
+            <img class="card-img img--5" src="./Images/1.jpg" alt="" />
+            <h3 class="card-title">Starting From €1200</h3>
+          </div>
+        </div>
+      </section>
+      <!-- **************** INFORMATION SECTION ****************  -->
+      <section class="section-information wow fadeIn"
+      data-wow-offset="5"
+      data-wow-duration="1s"
+      data-wow-delay="0.2s"">
+        <div class="container grid grid--2-cols">
+          <!-- INFORMATION TITLE-->
+          <h1 class="information-title title" id="information">information</h1>
+
+          <!-- THE EXPERIENCE -->
+          <div class="information-text">
+            <h2 class="subtitle">The Experience</h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus tenetur unde reiciendis provident nihil ullam sed
+              sint incidunt delectus fugiat!
+            </p>
+          </div>
+          <div class="info-img">
+            <img src="./Images/1.jpg" width="400px" alt="" />
+          </div>
+
+          <!-- FREQUENT QUESTIONS -->
+          <div class="info-img">
+            <img src="./Images/1.jpg" width="400px" alt="" />
+          </div>
+          <div class="faq-text">
+            <h2 class="subtitle center--text">Frequent Questions</h2>
+
+            <div class="Q1 flex">
+              <h4 class="question1">How may weddings do you take per year?</h4>
+              <h4 class="span1">+</h4>
+            </div>
+            <p class="answer1" style="display: none">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+              repellat sapiente, atque pariatur sequi voluptatum saepe fuga
+              architecto dolor minima enim sed et illo nisi tempora, quidem
+              dolorem totam nobis.
+            </p>
+
+            <div class="Q2 flex">
+              <h4 class="question2">How long have you been a photographer?</h4>
+              <h4 class="span2">+</h4>
+            </div>
+            <p class="answer2" style="display: none">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias nisi aperiam id vero! Totam, eos assumenda! Magni
+              distinctio molestias voluptates?
+            </p>
+
+            <div class="Q3 flex">
+              <h4 class="question3">what is your turnaround time?</h4>
+              <h4 class="span3">+</h4>
+            </div>
+
+            <p class="answer3" style="display: none">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+              illo explicabo velit perferendis qui. Nobis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***************** CONTACT US ****************  -->
+      <section class="section-contact-us wow fadeInUp"
+      data-wow-offset="5"
+      data-wow-duration="1s"
+      data-wow-delay="0.2s"" id="contact">
+        <div class="container grid grid--2-cols">
+          <h1 class="title contact-us-title grid--one-row" id="get-in-touch">
+            Get In Touch
+          </h1>
+          <div class="CTA--left">
+            <form class="cta-form" action="#">
+              <input
+                id="full-name"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+            </form>
+            <form class="cta-form" action="#" id="email-cont">
+              <input
+                class="cta-form email"
+                id="email"
+                type="email"
+                placeholder="E-Mail"
+                required
+              />
+              <div class="invalid">please enter a valid email</div>
+            </form>
+            <form class="cta-form" action="#">
+              <input id="address" type="text" placeholder="Address" required />
+            </form>
+            <form class="cta-form" action="#">
+              <input
+                id="Date"
+                type="text"
+                placeholder="Data Of Event"
+                required
+              />
+            </form>
+            <div class="flex flex--column" id="want-you-for">
+              <label for="want-you-for">We want you for: </label>
+              <select name="heared-where" id="select-where" required>
+                <option value="Wedding">Wedding</option>
+                <option value="Elopement">Elopement</option>
+                <option value="Engagement">Engagement</option>
+                <option value="Pre-Wedding">Pre-wedding</option>
+                <option value="Anniversary">Anniversary</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- CTA RIGHT -->
+          <div class="CTA--right">
+            <form class="cta-form partner-name" action="#">
+              <input
+                id="partner-name"
+                type="text"
+                placeholder="Your partners name"
+                required
+              />
+            </form>
+            <form class="cta-form" action="#">
+              <input id="phone" type="text" placeholder="Phone" required />
+            </form>
+            <form class="cta-form" action="#">
+              <input
+                id="instagram"
+                type="text"
+                placeholder="instagram handles"
+                required
+              />
+            </form>
+            <form class="cta-form" action="#">
+              <input
+                id="location"
+                type="text"
+                placeholder="Locations"
+                required
+              />
+            </form>
+            <div class="flex flex--column">
+              <label for="hear-about-us">Where did you hear about us? </label>
+              <select name="where" class="select-where" required>
+                <option value="Friends">Facebook Ad</option>
+                <option value="Family">Family</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Facebook">Friends</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- TELL US ABOUT YOU TWO -->
+
+          <div class="flex flex--column grid--one-row">
+            <label for="about-you-two">Tell us about you two </label>
+
+            <textarea
+              class="text-box--big about-you-two"
+              name="about-you-two"
+              cols="30"
+              placeholder="Hobbies, Work, etc."
+            ></textarea>
+          </div>
+
+          <div class="flex flex--column grid--one-row">
+            <label for="any-questions">Any Questions? </label>
+            <textarea
+              class="text-box--big any-questions"
+              name="any-questions"
+              cols="30"
+              placeholder="Write Questions Here"
+            ></textarea>
+          </div>
+          <button
+            class="btn CTA--btn grid--one-row center submit-btn"
+            type="submit"
+          >
+            submit!
+          </button>
+          <div class="thanks">
+            <p>Thanks for your message! We'll get back to you ASAP</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***************** CTA MOBILE ****************  -->
+      <section class="section-contact-us-mob" id="contact">
+        <h1 class="title contact-us-title">Get In Touch</h1>
+        <form class="cta-form" action="#">
+          <input id="full-name" type="text" placeholder="Full Name" required />
+          <input
+            id="partner-name"
+            type="text"
+            placeholder="Your partners name"
+            required
+          />
+          <input
+            class="cta-form email"
+            id="email"
+            type="email"
+            placeholder="E-Mail"
+            required
+          />
+          <div class="invalid">please enter a valid email</div>
+          <input id="phone" type="text" placeholder="Phone" required />
+          <input id="address" type="text" placeholder="Address" required />
+          <input
+            id="instagram"
+            type="text"
+            placeholder="instagram handles"
+            required
+          />
+          <input id="Date" type="text" placeholder="Data Of Event" required />
+          <input id="location" type="text" placeholder="Locations" required />
+          <div>
+            <label for="want-you-for">We want you for: </label>
+            <br />
+            <select name="event" class="drop-down" required>
+              <option value="Friends">Wedding</option>
+              <option value="Family">Elopement</option>
+              <option value="Youtube">Engagement</option>
+              <option value="Facebook">Pre-wedding</option>
+              <option value="Other">Anniversary</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="hear-about-us">Where did you hear about us? </label>
+            <br />
+            <select name="where" class="drop-down" required>
+              <option value="Friends">Facebook Ad</option>
+              <option value="Family">Family</option>
+              <option value="Youtube">Youtube</option>
+              <option value="Facebook">Friends</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <br />
+            <label for="about-you-two">Tell us about you two </label>
+            <textarea
+              class="text-box--big"
+              name="about-you-two"
+              id="about-you-tw"
+              cols="30"
+              placeholder="Hobbies, Work, etc."
+            ></textarea>
+          </div>
+          <div>
+            <label for="any-questions">Any Questions? </label>
+            <textarea
+              class="text-box--big"
+              name="any-questions"
+              id="any-questions"
+              cols="30"
+              placeholder="Write Questions Here"
+            ></textarea>
+          </div>
+        </form>
+        <button class="btn CTA--btn submit-btn" type="submit">submit!</button>
+        <div class="thanks">
+          <p>Thanks for your message! We'll get back to you ASAP</p>
+        </div>
+      </section>
+      <!-- ***************** FOOTER ****************  -->
+      <section class="section-footer">
+        <div class="container grid grid--3-cols">
+          <h1 class="title contact-us-title grid--one-row">
+            True Love Weddings
+          </h1>
+        </div>
+      </section>
+
+      <!-- BACK TO TOP BUTTON -->
+
+      <a href="#header" class="backToTop--btn" id="backToTop--btn">^</a>
+    </main>
+
+    <!-- **************** BOOTSTRAP JS  ****************  -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
